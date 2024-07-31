@@ -2,6 +2,7 @@
 #include <cs50.h>
 
 int main(void) {
-    printf("hi");
-    string answer = get_string("halis");
+    printf("hi\n");
+    string answer = get_string("whats your name? ");
+    printf("szia %s",answer);
 }
