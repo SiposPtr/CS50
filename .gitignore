@@ -1,1 +1,4 @@
 ~$*
+.vscode
+test.dSYM/Contents
+.DS_Store
