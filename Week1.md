@@ -9,7 +9,7 @@ int main(void) {
 ```
 
 to run:<br>
-`make <name_of_program_you_want>`
+`make <name_of_program_you_want>`<br>
 `./<name_of_program_you_want>`
 
 
@@ -58,4 +58,44 @@ LICENSE         Makefile        README.md       build           docs            
 ~/Developement/CS50/libcs50-11.0.3 @ main ~ cd ..
 ~/Developement/CS50 @ main ~ gcc -o first first.c -L /Users/sipospeter/Developement/CS50 -lcs50 -Wl,-rpath,/Users/sipospeter/Developement/CS50
 ~/Developement/CS50 @ main ~ ./first
+```
+
+variable declaration:<br>
+`<variable_type> name = value;`
+
+example:<br>
+`string name = "Peter";`
+
+In C, the printf function allows you to print different types of data together by using format specifiers. For integers, you would use ```%d``` or ```%i```. So, to print an integer x and y together with a string, you could write:
+
+```
+printf("x %d is smaller than %d", x, y);
+```
+
+In this case, ```%d``` is a placeholder for an integer. The variables x and y are inserted in the order they appear after the string.
+
+formmatting:
+* %c
+* %f
+* %i
+* %li
+* %s
+
+conditions:
+```
+if (expr) {
+
+}
+```
+
+Increments:<br>
+`int counter = 0;`<br>
+`counter += 1;`<br>
+`counter++;`
+
+loops:
+```
+while (expr) {
+
+}
 ```
